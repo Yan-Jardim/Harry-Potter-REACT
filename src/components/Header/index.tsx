@@ -11,13 +11,20 @@ export default function Header() {
                 <meta name="description" content="Harry Potter" />
                 <link rel="icon" href="chapeu.png" />
             </Head>
-            <S.Soon src={"bpo1.png"} />
-            <S.SizeBnt>
-                <Button action={() => (window.location.href = "/personagens?casa=personagens&numbre=personagens")}
-                    label1={'Veja Todos'}
-                    label2={'os Personagens'}
-                />
-            </S.SizeBnt>
+            <div>
+                <S.Target />
+            </div>
+
+            <div>
+                <S.Logo src={"logo.png"} />
+                <S.BoxBnt>
+                    <Button action={() => (window.location.href = "/personagens?house=personagens&api=personagens")}
+                        label1={'Veja Todos'}
+                        label2={'os Personagens'}
+                    />
+
+                </S.BoxBnt>
+            </div>
         </div>
     )
 }
