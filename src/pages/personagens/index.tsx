@@ -33,134 +33,16 @@ export default function TodosPerso() {
     }
   }, []);
 
-  const handleOpenModal = (personagem: string) => {
-    setPersonagemAtual(personagem);
-    setModalIsOpen(true)
-  };
-
-  // const houses = (house:any) => {
-  //   switch (house?.house) {
-  //     case 'gryffindor': return (
-  //       <>
-  //         <S.SwitchText>grifinória</S.SwitchText>
-  //       </>
-  //     );
-  //     case 'slytherin': return (
-  //       <>
-  //         <S.SwitchText>soncerina</S.SwitchText>
-  //       </>
-  //     );
-  //     case 'hufflepuff': return (
-  //       <>
-  //         <S.SwitchText>lufa-lufa</S.SwitchText>
-  //       </>
-  //     );
-  //     case 'ravenclaw': return (
-  //       <>
-  //         <S.SwitchText>corvinal</S.SwitchText>
-  //       </>
-  //     );
-  //     case 'personagens': return (
-  //       <>
-  //         <S.SwitchText>personagens</S.SwitchText>
-  //       </>
-  //     );
-  //   }
-  // }
-  // const apihouse = (house:any) => {
-  //   switch (house?.house) {
-  //     case 'gryffindor': return (
-  //       <>
-  //         {respostaGryffindor &&
-  //           Object.values(respostaGryffindor).map((item) => {
-  //             return (
-  //               <>
-  //                 <S.Actor className='divStudents' onClick={() => handleOpenModal(item)}>
-  //                   {/* @ts-ignore */}
-  //                   <S.ImagePersonagem src={item.image !== '' ? item.image : imgPhoto(item?.name)} alt={item.name} />
-  //                   {/* @ts-ignore */}
-  //                   <S.NameStundent>{item.name}</S.NameStundent>
-  //                 </S.Actor>
-  //               </>
-  //             );
-  //           })}
-  //       </>
-  //     );
-  //     case 'ravenclaw': return (
-  //       <>
-  //         {respostaHufflepuff &&
-  //           Object.values(respostaHufflepuff).map((item) => {
-  //             return (
-  //               <>
-  //                 <S.Actor className='divStudents' onClick={() => handleOpenModal(item)}>
-  //                   {/* @ts-ignore */}
-  //                   <S.ImagePersonagem src={item.image !== '' ? item.image : imgPhoto(item?.name)} alt={item.name} />
-  //                   {/* @ts-ignore */}
-  //                   <S.NameStundent>{item.name}</S.NameStundent>
-  //                 </S.Actor>
-  //               </>
-  //             );
-  //           })}
-  //       </>
-  //     );
-  //     case 'hufflepuff': return (
-  //       <>
-  //         {respostaRavenclaw &&
-  //           Object.values(respostaRavenclaw).map((item) => {
-  //             return (
-  //               <>
-  //                 <S.Actor className='divStudents' onClick={() => handleOpenModal(item)}>
-  //                   {/* @ts-ignore */}
-  //                   <S.ImagePersonagem src={item.image !== '' ? item.image : imgPhoto(item?.name)} alt={item.name} />
-  //                   {/* @ts-ignore */}
-  //                   <S.NameStundent>{item.name}</S.NameStundent>
-  //                 </S.Actor>
-  //               </>
-  //             );
-  //           })}
-  //       </>
-  //     );
-  //     case 'slytherin': return (
-  //       <>
-  //         {respostaSlytherin &&
-  //           Object.values(respostaSlytherin).map((item) => {
-  //             return (
-  //               <>
-  //                 <S.Actor className='divStudents' onClick={() => handleOpenModal(item)}>
-  //                   {/* @ts-ignore */}
-  //                   <S.ImagePersonagem src={item.image !== '' ? item.image : imgPhoto(item?.name)} alt={item.name} />
-  //                   {/* @ts-ignore */}
-  //                   <S.NameStundent>{item.name}</S.NameStundent>
-  //                 </S.Actor>
-  //               </>
-  //             );
-  //           })}
-  //       </>
-  //     );
-  //     case 'personagens': return (
-  //       <>
-  //         {resposta &&
-  //           Object.values(resposta).map((item) => {
-  //             return (
-  //               <>
-  //                 <S.Actor className='divStudents' onClick={() => handleOpenModal(item)}>
-  //                   {/* @ts-ignore */}
-  //                   <S.ImagePersonagem src={item.image !== '' ? item.image : imgPhoto(item?.name)} alt={item.name} />
-  //                   {/* @ts-ignore */}
-  //                   <S.NameStundent>{item.name}</S.NameStundent>
-  //                 </S.Actor>
-  //               </>
-  //             );
-  //           })}
-  //       </>
-  //     );
-  //   }
-  // }
+  // const handleOpenModal = (personagem: string) => {
+  //   setPersonagemAtual(personagem);
+  //   setModalIsOpen(true)
+  // };
+ 
 
   return (
     <S.Container>
       <S.Target>
-        <LogoTodos action={() => (window.location.href = '/')} label1={""} />
+        <LogoTodos action={() => (window.location.href = '/')} />
       </S.Target>
       <S.Background1>
         <S.BoxBack>

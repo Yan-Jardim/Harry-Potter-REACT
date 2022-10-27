@@ -5,7 +5,7 @@ export default function LogoTodos({ action }: ButtonProps) {
 
   return (
     <>
-      <div onClick={action}>
+      <div data-testid="test-logo-stage" onClick={action}>
         <S.Logo3 src={"logo_3.png"} />
       </div>
     </>

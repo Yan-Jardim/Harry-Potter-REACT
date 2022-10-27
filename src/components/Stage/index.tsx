@@ -5,7 +5,7 @@ export default function Stage ({text}:StageProps) {
 
     return(
         <>
-        <div>
+        <div data-testid="test-stage">
         <S.Text>{text}</S.Text>
         </div>
         </>
