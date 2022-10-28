@@ -18,7 +18,7 @@ export default function Header() {
             <div>
                 <S.Logo src={"logo.png"} />
                 <S.BoxBnt>
-                    <Button action={() => (window.location.href = "/personagens?house=personagens&api=personagens")}
+                    <Button action={() => (window.location.href = "/personagens?house=personagens")}
                         label1={'Veja Todos'}
                         label2={'os Personagens'}
                     />
