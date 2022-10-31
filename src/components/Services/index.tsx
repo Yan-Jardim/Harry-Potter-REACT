@@ -7,37 +7,9 @@ import axios from "axios";
 
 export default function CharactersAll() {
   const [resposta, setResposta] = useState([]);
-
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [personagemAtual, setPersonagemAtual] = useState({});
-  const [house, setHouse] = useState();
-
-
-  const API = house ? `https://hp-api.herokuapp.com/api/characters/house/${house}` : `https://hp-api.herokuapp.com/api/characters`;
-
-//   const baseURL = "https://hp-api.herokuapp.com/api/characters"
-
-//   function getCharacters(house: string | undefined) {
-//     if (house != undefined){
-//             if (house == 'all'){
-//                 axios.get(baseURL).then((response) => setResposta(response.data))
-//                 console.log('IF');
-//             }
-//             else {
-//                 axios.get(baseURL + `/house/${house}`).then((response) => setResposta(response.data))
-//                 console.log('Else');
-//             }
-            
-//     }
-// }
-// console.log(resposta,'resposta');
-
-  useEffect(() => {
-    (async function () {
-      const data = await fetch(API).then((respose) => respose.json());
-      setResposta(data);
-    })();
-  }, [API]);
+  const [house, setHouse] = useState<any>();
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -48,11 +20,24 @@ export default function CharactersAll() {
           [key]: value.toString().replace('house=', ''),
         });
       });
-      setHouse(urlParams)
-      //getCharacters(house)
-      console.log(urlParams, 'urlParams')
+      setHouse(urlParams.house)
     }
   }, []);
+  
+  console.log(house, 'house')
+
+   const baseURL = "https://hp-api.herokuapp.com/api/characters"
+
+   useEffect(() => {   
+    if (house){
+            if (house === 'all'){
+                axios.get(baseURL).then((response) => setResposta(response.data))
+            }
+            else {
+                axios.get(baseURL + `/house/${house}`).then((response) => setResposta(response.data))
+            } 
+          }
+      }, [house]);
 
   const handleOpenModal = (personagem: string) => {
     setPersonagemAtual(personagem);
@@ -60,7 +45,7 @@ export default function CharactersAll() {
   };
 
   const houses = () => {
-    switch (house?.house) {
+    switch (house) {
       case 'all':
         return 'PERSONAGENS';
       case 'Gryffindor':
@@ -121,7 +106,3 @@ export default function CharactersAll() {
     </S.Container>
   );
 }
-function getCharacters() {
-  throw new Error("Function not implemented.");
-}
-
