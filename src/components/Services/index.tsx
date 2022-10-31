@@ -67,7 +67,7 @@ export default function CharactersAll() {
       <S.Background1>
         <S.BoxBack>
           <S.Main>
-            <S.LogoMain />
+            <S.LogoMain src={'logo2.png'}/>
             <S.BoxText>
               <Stage text={houses()}/>              
             </S.BoxText>
@@ -76,7 +76,7 @@ export default function CharactersAll() {
             </S.BoxBorder>
           </S.Main>
           <S.Mdl>
-            <S.BoxInfo className="grid">
+            <S.BoxInfo>
               <S.CardsStudents>
                 <S.ImageCardSudents>
                 {resposta &&
@@ -96,12 +96,10 @@ export default function CharactersAll() {
             </S.BoxInfo>
           </S.Mdl>
         </S.BoxBack>
-        <S.BtnRef>
           {
             modalIsOpen &&
             <Modal handleClose={() => setModalIsOpen(false)} personagemAtual={personagemAtual} />
           }
-        </S.BtnRef>
       </S.Background1>
     </S.Container>
   );

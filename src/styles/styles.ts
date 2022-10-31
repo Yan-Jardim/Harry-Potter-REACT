@@ -43,13 +43,11 @@ margin: 0;
 export const BoxText = styled.div`
 font-family: Arial, Helvetica, sans-serif;
  margin-right: 30px;
-`;
-export const Text = styled.p`
-color: #A6955A;
+ color: #A6955A;
 font-size: 18px;
 font-weight: 400;
-@media (max-width:360px) {
-    font-size: 50px;    
+ @media (max-width:360px) {
+font-size: 80px;    
 }
 `;
 export const Border = styled.div`

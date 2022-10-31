@@ -34,17 +34,17 @@ position: absolute;
 @media  (max-width:360px) {
    display: flex;
    flex-direction: column;
+   margin-top: 100px;
 }
 `;
-export const LogoMain = styled.div`
-background-image: url('logo2.png');
+export const LogoMain = styled.img`
 width: 72px;
 height: 84px;
 z-index: 999;
-/* @media  (max-width:360px) {
-    width: 350px;
-   height: 150px;
-}  */
+@media  (max-width:360px) {
+    width: 200px;
+    height: 212px;
+} 
 `;
 export const BoxText = styled.div`
 font-family: Arial, Helvetica, sans-serif;
@@ -85,13 +85,17 @@ z-index: 2;
     @media (max-width:768px){
         width:95vw;
     }
-    /* @media  (max-width:360px) {
+    @media  (max-width:360px) {
    margin-top: 300px;
- } */
+ }
 `
 
 export const CardsStudents = styled.div`
     display:flex;
+    @media (max-width:360px){
+        display:flex;
+        justify-content: center;
+    }
 `
 
 export const ImageCardSudents = styled.div`
@@ -103,7 +107,7 @@ background-image: url('background_2.png');
     align-self: stretch;
     text-align:center;
     position: relative;
-    margin-right: 100px;    
+    margin-right: 100px;       
 `
 
 export const ImagePersonagem = styled.img`
@@ -129,10 +133,10 @@ export const ImagePersonagem = styled.img`
         max-height:45vh;
         width:38vw;
     }
-    @media (max-width:375px){
-        height:65vh;
-        max-height:65vh;
-        width:75vw;
+    @media (max-width:360px){
+        height:100vh;
+        max-height:100vh;
+        width:150vw;
     }
 `
 
@@ -142,16 +146,21 @@ export const Actor = styled.div`
    font-weight:600;
    font-size:24px;
    margin-bottom: 10px;
+   @media (max-width:360px){
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 `
 
 export const NameStundent = styled.p`
 width: 143px;
 height: 28px;
 text-align: center;
-    @media (max-width:425px){
-        font-size:1.15rem;
+    @media (max-width:360px){
+        font-size:50px;
+        height: 100px;
+        width: 230px;
     }
-`
-export const BtnRef = styled.p`
-
 `
