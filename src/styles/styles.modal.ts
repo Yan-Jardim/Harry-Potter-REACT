@@ -16,6 +16,7 @@ z-index: 9999;
     justify-content: center;
     margin: 0px 0px 0px 500px;
     height: 100%;
+    background: none;
 }
 `
 export const Content = styled.div`
@@ -30,7 +31,7 @@ border-radius: 10px;
 flex-direction: column;
     width: 355vw;
     height: 660vw;
-    padding-bottom: 50px;
+    padding-bottom: 50px;   
 }
 `
 export const Img = styled.div`
