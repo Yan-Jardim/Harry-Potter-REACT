@@ -5,7 +5,7 @@ width: 203px;
 height: 72px;
 cursor: pointer;
 @media (max-width:360px) {
-   /* width: 400px;
-   height: 400px;   */
+  width: 280px;
+  height: 150px;   
  }
 `;

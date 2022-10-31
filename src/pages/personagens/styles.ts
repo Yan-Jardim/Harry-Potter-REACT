@@ -49,6 +49,7 @@ z-index: 999;
 export const BoxText = styled.div`
 font-family: Arial, Helvetica, sans-serif;
 margin-left: 15px;
+text-transform: uppercase;
 `;
 export const Text = styled.p`
 color: #A6955A;
