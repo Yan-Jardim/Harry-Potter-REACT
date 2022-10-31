@@ -14,7 +14,8 @@ font-size: 16px;
 font-weight: 700;
 @media (max-width:360px) {
     width: 800px;
-    height: 150px;
-    font-size: 40px;
+    height: 180px;
+    font-size: 60px;
+    margin-bottom: 40px;
  }
 `;
