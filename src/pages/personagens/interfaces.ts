@@ -1,3 +1,4 @@
 export interface PersonagensProps {
-  urlParams : any
+  urlParams?: any
+  house?: any
 }

@@ -42,7 +42,7 @@ height: 356px;
 
 }
 `
-export const Props = styled.div`
+export const Main = styled.div`
 margin: 60px 0px 0 38px;
 font-family: 'Arial';
 font-style: normal;
@@ -54,14 +54,14 @@ line-height: 30px;
     margin: 30px 50px 0 0;
 }
 `
-export const P = styled.div`
+export const Text = styled.div`
 color: #A6955A;
 `
 export const Color = styled.span`
 color: white;
 margin-left: 10px;
 `
-export const Fechar = styled.div`
+export const Closed = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
@@ -77,6 +77,6 @@ font-weight: 900;
     margin: 0;
 }
 `
-export const Alinhamento = styled.div`
+export const Alignment = styled.div`
 padding: 0px 0px 0px 20px;
 `
