@@ -76,8 +76,8 @@ display: flex;
 justify-content: center;
 margin-top: 150px;
 margin-left: 80px;
-@media (max-width:768px){
-width:95vw;
+@media (max-width:360px){
+//width:95vw;
 } 
 `
 export const BoxInfo = styled.main`

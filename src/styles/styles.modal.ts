@@ -14,7 +14,8 @@ z-index: 9999;
 @media (max-width:360px) {
     display: flex;
     justify-content: center;
-    margin: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 500px;
+    height: 100%;
 }
 `
 export const Content = styled.div`
@@ -24,13 +25,21 @@ width: 704px;
 height: 453px;
 background: #171717;
 border-radius: 10px;
+@media (max-width:360px) {
+    display: flex;
+flex-direction: column;
+    width: 355vw;
+    height: 660vw;
+    padding-bottom: 50px;
+}
 `
 export const Img = styled.div`
 margin: 44px 0 0 59px;
 width: 256px;
 height: 356px;
 @media (max-width:360px) {
-margin: 0px;
+ width: 350vw;
+height: 100vw;
 }
 `
 
@@ -39,8 +48,10 @@ border: 2px solid #A6955A;
 width: 256px;
 height: 356px;
 @media (max-width:360px) {
+    width: 310vw;
+    height: 345vw;
+ }
 
-}
 `
 export const Main = styled.div`
 margin: 60px 0px 0 38px;
@@ -50,8 +61,12 @@ font-weight: 400;
 font-size: 18px;
 line-height: 30px;
 @media (max-width:360px) {
-    width: 10px;
-    margin: 30px 50px 0 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: 60px;
+line-height: 85px;
+margin-top: 203vw;
 }
 `
 export const Text = styled.div`
@@ -74,7 +89,11 @@ color: #031C29;
 cursor: pointer;
 font-weight: 900;
 @media (max-width:360px) {
-    margin: 0;
+position: absolute;
+left: 205vw;
+width: 60px;
+height: 60px;
+font-size: 30px;
 }
 `
 export const Alignment = styled.div`
