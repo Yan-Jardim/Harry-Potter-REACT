@@ -15,16 +15,16 @@ export default function Header() {
                 <S.Target />
             </div>
 
-            <div>
+            <S.LogoDiv >
                 <S.Logo src={"logo.png"} />
+                </S.LogoDiv>
                 <S.BoxBnt>
                     <Button action={() => (window.location.href = "/personagens?house=all")}
                         label1={'Veja Todos'}
                         label2={'os Personagens'}
                     />
 
-                </S.BoxBnt>
-            </div>
+                </S.BoxBnt>            
         </div>
     )
 }

@@ -1,6 +1,7 @@
 import * as S from "../styles/styles";
 import Header from "../components/Header";
 import CardHouse from "../components/Card";
+import Stage from "../components/Stage";
 
 export default function Home() {
 
@@ -10,9 +11,9 @@ export default function Home() {
       <S.Background>
         <Header />
         <S.Main>
-          <S.LogoMain />
+          <S.LogoMain src={'logo2.png'} />
           <S.BoxText>
-            <S.Text>Navegue pelas Casas</S.Text>
+            <Stage text={'Navegue pelas Casas'}/>
           </S.BoxText>
           <S.Border />
         </S.Main>

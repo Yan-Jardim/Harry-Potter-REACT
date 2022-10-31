@@ -13,9 +13,8 @@ cursor: pointer;
 font-size: 16px;
 font-weight: 700;
 @media (max-width:360px) {
-    margin-top: 100px;
-    width: 500px;
-    height: 100px;
+    width: 800px;
+    height: 150px;
     font-size: 40px;
  }
 `;

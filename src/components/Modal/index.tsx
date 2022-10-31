@@ -1,5 +1,5 @@
 import React from 'react';
-import * as S from "./styles.modal"
+import * as S from "../../styles/styles.modal"
 import { imgPhoto } from '../../pages/utils/helpers';
 
 export default function Modal(props: any) {

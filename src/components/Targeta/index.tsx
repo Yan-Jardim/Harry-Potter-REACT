@@ -1,5 +1,5 @@
 import { ButtonProps } from "./interfaces";
-import * as S from "./styles";
+import * as S from "./styles.targeta";
 
 export default function LogoTodos({ action }: ButtonProps) {
 
