@@ -2,10 +2,16 @@ import * as S from "../styles/styles";
 import Header from "../components/Header";
 import CardHouse from "../components/Card";
 import Stage from "../components/Stage";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <S.Content>
+      <Head>
+        <title>Harry Potter</title>
+        <meta name="description" content="Harry Potter" />
+        <link rel="icon" href="Harry-Potter-brasao.png" />
+      </Head>
       <S.Background>
         <Header />
         <S.Main>

@@ -25,6 +25,18 @@ z-index: 1;
 @media (max-width:360px) {
    width: 800px;
    height: 400px;  
+   margin-top: 20px;
+  margin-right: 0.25rem;
+  animation: bounce 0.5s linear infinite alternate;
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-10%);
+  }
+  100% {
+    transform: translateY(10%);
+  }
+}
  }
 `;
 export const BoxBnt = styled.div`

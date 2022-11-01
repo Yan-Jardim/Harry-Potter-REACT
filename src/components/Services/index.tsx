@@ -39,6 +39,7 @@ export default function CharactersAll() {
       }
     }
   }, [house]);
+  console.log(resposta, "resposta");
 
   const handleOpenModal = (personagem: string) => {
     setPersonagemAtual(personagem);
