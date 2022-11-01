@@ -42,6 +42,18 @@ export const imgPhoto = (namePerson: any) => {
       return "https://static.wikia.nocookie.net/harrypotter/images/5/5d/PhyllidaSporeHead.jpg";
     case "Arsenius Jigger":
       return "https://static.wikia.nocookie.net/harrypotter/images/5/5f/ArseniusJigger.JPG";
+    case "Newt Scamander":
+      return "https://static.wikia.nocookie.net/harrypotter/images/3/36/Newton_Scamander_Profile_crop.png";
+    case "Quentin Trimble":
+      return "https://static.wikia.nocookie.net/harrypotter/images/7/76/QuentinTrimblePortrait.png";
+    case "Tom":
+      return "https://qph.cf2.quoracdn.net/main-qimg-e7e759000367a22269baee8494180c3a-lq";
+    case "Doris Crockford":
+      return "https://static.wikia.nocookie.net/wizarding-world-film/images/c/c5/Doris_Crockford.jpg";
+    case "Quirinus Quirrel":
+      return "https://static.wikia.nocookie.net/harrypotter/images/d/d2/Quirinus_Quirrell_PS_promo.jpg";
+    case "Griphook":
+      return "https://static.wikia.nocookie.net/harrypotter/images/5/53/Griphook_TDH_SF.png";
 
     default:
       return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRleKTGZ3asGHBqoap1YPeldfLJ9Iwk8ZN7prhoOh0Fo6hv8_JoSXxFwIbu_cEYlO8HtG4&usqp=CAU";

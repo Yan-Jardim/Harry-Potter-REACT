@@ -50,7 +50,7 @@ border: 2px solid #A6955A;
 width: 256px;
 height: 356px;
 @media (max-width:360px) {
-    width: auto;
+    width: 125vh;
     height: 345vw;
     margin-left: 130px;
  }
