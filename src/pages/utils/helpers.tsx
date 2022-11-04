@@ -54,6 +54,48 @@ export const imgPhoto = (namePerson: any) => {
       return "https://static.wikia.nocookie.net/harrypotter/images/d/d2/Quirinus_Quirrell_PS_promo.jpg";
     case "Griphook":
       return "https://static.wikia.nocookie.net/harrypotter/images/5/53/Griphook_TDH_SF.png";
+    case "Madam Malkin":
+      return "https://static.wikia.nocookie.net/harrypotter/images/0/0b/MadamMalkin.jpg";
+    case "Vindictus Viridian":
+      return "https://static.wikia.nocookie.net/harrypotter/images/e/ec/VindictusProfile.jpg";
+    case "Garrick Ollivander":
+      return "https://static.wikia.nocookie.net/harrypotter/images/6/6f/Garrick_Ollivander.png";
+    case "Hedwig":
+      return "https://static.wikia.nocookie.net/harrypotter/images/1/1e/Hedwig_Snowy_Owl_PM.png";
+    case "Molly Weasley":
+      return "https://static.wikia.nocookie.net/harrypotter/images/3/3c/Molly_Weasley_Deathly_Hallows.jpg";
+    case "Percy Weasley":
+      return "https://static.wikia.nocookie.net/harrypotter/images/b/bc/Percy_WeasleyDH.jpg";
+    case "Fred Weasley":
+      return "https://static.wikia.nocookie.net/harrypotter/images/9/90/Fred_HS_TDH_promo.jpg";
+    case "George Weasley":
+      return "https://static.wikia.nocookie.net/harrypotter/images/2/2a/DH_promo_front_closeup_George_Weasley.jpg";
+    case "Lee Jordan":
+      return "https://static.wikia.nocookie.net/harrypotter/images/5/57/Leejordan_OoTP.PNG";
+    case "Bill Weasley":
+      return "http://pm1.narvii.com/6334/0b6bd6566289061addf0385611d20ca98241753d_00.jpg";
+    case "Charlie Weasley":
+      return "https://static.wikia.nocookie.net/harrypotter/images/d/d0/Charlie_PM.jpg";
+    case "Fat Friar":
+      return "https://static.wikia.nocookie.net/harrypotter/images/e/ea/Fat_Friar_Profile.png";
+    case "Peeves":
+      return "https://static.wikia.nocookie.net/harrypotter/images/0/01/Peeves_-_Bob_Venables_PM.gif";
+    case "Hannah Abbott":
+      return "https://static.wikia.nocookie.net/harrypotter/images/b/b7/Harry-potter-goblet-of-fire-hannah.jpg";
+    case "Susan Bones":
+      return "https://static.wikia.nocookie.net/harrypotter/images/7/77/Susan01.png";
+    case "Terry Boot":
+      return "https://static.wikia.nocookie.net/harrypotter/images/7/77/Terry_Boot_HP5_PC.jpg";
+    case "Lavender Brown":
+      return "https://static.wikia.nocookie.net/harrypotter/images/b/b6/Lavender_Brown_HBP.jpg";
+    case "Mandy Brocklehurst":
+      return "https://static.wikia.nocookie.net/harryalbuspotter/images/a/af/Mandy_B.PNG";
+    case "Millicent Bulstrode":
+      return "https://pm1.narvii.com/6310/cbaf65efd0470d183c6f95b56defa5cefba63dc6_hq.jpg";
+    case "Justin Finch-Fletchley":
+      return "https://static.wikia.nocookie.net/harrypotter/images/1/16/Justin_Finch-Fletchley_%28McGonagall%27s_Class%29_%281%29.png";
+    case "Seamus Finnegan":
+      return "https://images.ctfassets.net/usf1vwtuqyxm/3AIPltW688yYGguoOacqOE/1eeae65e73b7b50df79d510b329dd866/SeamusFinnigan_WB_F4_SeamusFinniganGrabbingHisCloak_Promo_080615_Port.jpg";
 
     default:
       return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRleKTGZ3asGHBqoap1YPeldfLJ9Iwk8ZN7prhoOh0Fo6hv8_JoSXxFwIbu_cEYlO8HtG4&usqp=CAU";
