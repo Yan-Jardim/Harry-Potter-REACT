@@ -16,6 +16,7 @@ export const Card1 = styled.img`
 width: 272px;
 height: 288px;
 border: 2px solid #A6955A;
+cursor: pointer;
 &:hover{
         box-shadow: -5px 5px 20px #A6955A;
         transition:0.55s;
@@ -31,6 +32,7 @@ export const Card2 = styled.img`
 width: 272px;
 height: 288px;
 border: 2px solid #A6955A;
+cursor: pointer;
 &:hover{
         box-shadow: -5px 5px 20px #A6955A;
         transition:0.55s;
@@ -45,6 +47,7 @@ export const Card3 = styled.img`
 width: 272px;
 height: 288px;
 border: 2px solid #A6955A;
+cursor: pointer;
 &:hover{
         box-shadow: -5px 5px 20px #A6955A;
         transition:0.55s;
@@ -59,6 +62,7 @@ export const Card4 = styled.img`
 width: 272px;
 height: 288px;
 border: 2px solid #A6955A;
+cursor: pointer;
 &:hover{
         box-shadow: -5px 5px 20px #A6955A;
         transition:0.55s;
