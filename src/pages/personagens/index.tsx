@@ -1,6 +1,6 @@
 import CharactersAll from "../../components/Services";
 import LogoTodos from "../../components/Targeta";
-import * as S from "./styles";
+import * as S from "../../styles/styles.personagens";
 
 export default function Persons() {
   return (

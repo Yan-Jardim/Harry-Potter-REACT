@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import * as S from "../../pages/personagens/styles";
-import { imgPhoto } from "../../pages/utils/helpers";
+import * as S from "../../styles/styles.personagens";
+import { imgPhoto } from "../utils/helpers";
 import Modal from "../../components/Modal";
 import Stage from "../../components/Stage";
 import axios from "axios";

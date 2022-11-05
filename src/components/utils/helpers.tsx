@@ -100,5 +100,4 @@ export const imgPhoto = (namePerson: any) => {
     default:
       return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRleKTGZ3asGHBqoap1YPeldfLJ9Iwk8ZN7prhoOh0Fo6hv8_JoSXxFwIbu_cEYlO8HtG4&usqp=CAU";
   }
-};
-//"../../public/images/Harry-Potter-brasao.jpg"
+}

@@ -1,27 +1,17 @@
 html,
-body {
-  margin: 0 auto;
-  width: 1345px;
-  background-color: #041b29;
-  font-family: Arial, Helvetica, sans-serif;
-  }
-  
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+body {
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #041b29;
+  font-family: Arial, Helvetica, sans-serif;
+  }  
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
