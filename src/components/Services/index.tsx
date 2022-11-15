@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import * as S from "../../styles/styles.personagens";
 import { imgPhoto } from "../utils/helpers";
 import Modal from "../../components/Modal";
@@ -10,6 +10,22 @@ export default function CharactersAll() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [personagemAtual, setPersonagemAtual] = useState({});
   const [house, setHouse] = useState<any>();
+  const ref = useRef(null)
+
+  const handleClickOutside = (event: { target: any; }) => {
+    // @ts-ignore
+    if (ref.current && !ref.current.contains(event.target)) {
+      setModalIsOpen(false)
+
+    }
+  }
+
+  useEffect(() => {
+    document.addEventListener('click', handleClickOutside, true)
+    return () => {
+      document.removeEventListener('click', handleClickOutside, true)
+    }
+  }, [])
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -80,7 +96,7 @@ export default function CharactersAll() {
           <S.Mdl>
             <S.BoxInfo>
               <S.CardsStudents>
-                <S.ImageCardSudents>
+                <S.ImageCardSudents ref={ref} onClick={handleClickOutside}>
                   {resposta &&
                     Object.values(resposta).map((characters: any, index) => {
                       return (

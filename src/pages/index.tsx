@@ -10,7 +10,7 @@ export default function Home() {
       <Head>
         <title>Harry Potter</title>
         <meta name="description" content="Harry Potter" />
-        <link rel="icon" href="Harry-Potter-brasao.png" />
+        <link rel="icon" href="favicon.ico" />
       </Head>
       <S.Background>
         <Header />
