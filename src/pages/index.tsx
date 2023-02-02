@@ -1,28 +1,17 @@
-import * as S from "../styles/styles";
-import Header from "../components/Header";
-import CardHouse from "../components/Card";
-import Stage from "../components/Stage";
-import Head from "next/head";
+import Head from 'next/head'
+import { Header } from '../global/components/Header';
+import * as S from "./styles";
 
 export default function Home() {
   return (
-    <S.Content>
+    <div className='container'>
       <Head>
-        <title>Harry Potter</title>
-        <meta name="description" content="Harry Potter" />
-        <link rel="icon" href="favicon.ico" />
+        <title>Harry Potter | Home</title>     
+        <link rel="icon" href="/favicon.ico" />
       </Head>
-      <S.Background>
-        <Header />
-        <S.Main>
-          <S.LogoMain src={"logo2.png"} />
-          <S.BoxText>
-            <Stage text={"Navegue pelas Casas"} />
-          </S.BoxText>
-          <S.Border />
-        </S.Main>
-        <CardHouse />
-      </S.Background>
-    </S.Content>
-  );
+     <S.Content>
+      <Header/>         
+     </S.Content>
+    </div>
+  )
 }
