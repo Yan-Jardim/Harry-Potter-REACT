@@ -1,7 +1,7 @@
 import router from "next/router";
 import CharactersAll from "../../global/components/Person";
 import LogoTodos from "../../global/components/Targeta";
-import * as S from "./styles";
+import * as S from "../../../styles/styles.characters";
 
 export default function Characters() {
   return (

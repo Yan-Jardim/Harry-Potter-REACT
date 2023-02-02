@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { Header } from '../global/components/Header';
-import * as S from "./styles";
+import * as S from "../../styles/styles.home";
 
 export default function Home() {
   return (
