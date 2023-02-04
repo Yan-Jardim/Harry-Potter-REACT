@@ -6,7 +6,9 @@ import { IModalProps } from "./types";
 export default function Modal({personagemAtual, handleClose}:IModalProps) {
 
   return (
-    <S.Container data-testid="test-modal">
+    <div>
+    <S.Container onClick={handleClose} >
+      <div>
       <S.Content>
         <S.Img>
           <S.StyleImg
@@ -114,6 +116,8 @@ export default function Modal({personagemAtual, handleClose}:IModalProps) {
         </S.Main>
         <S.Closed onClick={handleClose}>X</S.Closed>
       </S.Content>
+      </div>
     </S.Container>
+    </div>
   );
 }
